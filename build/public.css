@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* nav styling */
+.whiteNavBackground,
+.darkNavBackground {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  transition: height 250ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.whiteNavBackground {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.darkNavBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.backgroundChange {
+  color: black;
+}
+
+.blackCookieBar {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  transition: height 250ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.blackCookieBar {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.blackCookieBar p,
+.blackCookieBar h4 {
+  color: white;
+}
+
+/* slider styling */
+.slideContainer {
+  border: none !important;
+  height: 100% !important;
+  min-height: unset !important;
+}
+
+.mainContainer {
+  height: 100% !important;
+}
+
+.slidesHolder {
+  height: 100% !important;
+}
+
+.slideList {
+  line-height: unset !important;
+}
+
+.buttonWrapperContainer {
+  transform: translateY(-50%);
+}
+
+.indicatorWrapperUl {
+  transform: translateX(-50%);
+}
+
+.nextButton {
+  margin-right: 10px !important;
+}
+
+.prevButton {
+  margin-left: 10px !important;
+}
+
+/* react phone input styling */
+.form-control {
+  width: 100% !important;
+  height: 56px !important;
+}
+
+.country-list {
+  width: 300px !important;
+}
